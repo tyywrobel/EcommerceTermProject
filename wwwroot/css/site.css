@@ -58,3 +58,12 @@ body {
     display: flex;
     margin-left: 100px;
 }
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #272727;
+    border-radius: 0 0 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}

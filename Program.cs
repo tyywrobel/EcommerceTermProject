@@ -50,6 +50,11 @@ namespace EcommerceTermProject
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
+
+            app.MapControllerRoute(
+                name: "addlistings",
+                pattern: "{controller=AddListings}/{action=Index}/{id?}");
+
             app.MapRazorPages();
 
             app.Run();
