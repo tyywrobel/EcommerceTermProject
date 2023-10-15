@@ -31,9 +31,9 @@ namespace EcommerceTermProject.Models
                 new AddListings
                 {
                     Id = 3,
-                    ProductName = "",
-                    City = "Detroit",
-                    State = "MI"
+                    ProductName = "Lamp",
+                    City = "San Antonio",
+                    State = "TX"
                 }
             );
         }
